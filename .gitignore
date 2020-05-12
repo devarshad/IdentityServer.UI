@@ -1,0 +1,26 @@
+*.suo
+
+*.user
+
+dist
+
+bin
+
+obj
+
+packages
+
+.vs
+
+-dist
+**/wwwroot/lib
+node_modules
+
+
+node_modules
+*.bak
+
+/Properties/PublishProfiles/BeoECommerceMSCMSProd - Web Deploy1.pubxml
+/Properties/PublishProfiles/BeoECommerceMSCMSProd - Web Deploy.pubxml
+/Properties/PublishProfiles/BeoECommerceMicroServiceCMSUAT - Web Deploy.pubxml
+/StyleCop.Cache

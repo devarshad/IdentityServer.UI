@@ -1,0 +1,16 @@
+﻿using Skoruba.AuditLogging.Events;
+using IdentityServer.UI.Configuration;
+using IdentityServer.UI.ViewModels.Api;
+
+namespace IdentityServer.UI.Events.ApiResource
+{
+    public class ApiScopeRequestedEvent : AuditEvent
+    {
+        public ApiScopesDto ApiScopes { get; set; }
+
+        public ApiScopeRequestedEvent(ApiScopesDto apiScopes)
+        {
+            ApiScopes = apiScopes;
+        }
+    }
+}
